@@ -1,8 +1,8 @@
 Package.describe({
   name: 'mvinc:markdown',
-  version: '0.0.3',
+  version: '0.0.4',
   summary: 'A markdown contentBlock',
-  git: '',
+  git: 'https://github.com/m-vinc/markdown',
   documentation: null
 })
 

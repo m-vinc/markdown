@@ -1,13 +1,14 @@
 Package.describe({
   name: 'mvinc:markdown',
-  version: '0.0.4',
+  version: '0.0.5',
   summary: 'A markdown contentBlock',
   git: 'https://github.com/m-vinc/markdown',
   documentation: null
 })
 
 Npm.depends({
-  marked: '0.6.2'
+  marked: '0.6.2',
+  dompurify: '3.1.6'
 })
 
 Package.onUse(function (api) {
